@@ -51,6 +51,8 @@ function cetak_gambar($panjang){
 	
 }
 
+echo "Membuat kotak";
+echo "<br>";
 cetak_gambar(5);
 
 ?>
