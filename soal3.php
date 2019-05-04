@@ -10,11 +10,39 @@ function cetak_gambar($panjang){
 	}
 	else{
 		echo "$panjang = Bilangan Ganjil<br>";
-		for ($i=1; $i<=$panjang; $i++)  
+		for ($i=4; $i<=$panjang; $i++)  
 		{  
-			for ($j=1; $j<=$panjang; $j++)  
+			echo "* ";
+			for ($j=3; $j<=$panjang; $j++)  
 			{  
-				echo '* ';  
+				echo '= ';
+			}  
+			for ($j=5; $j<=$panjang; $j++)  
+			{  
+				echo '* ';
+			}  
+			echo "</br>";  
+		}  
+		for ($i=5; $i<=$panjang; $i++)  
+		{  
+			echo "* ";
+			for ($j=2; $j<=$panjang; $j++)  
+			{  
+				echo '* ';
+			}  
+			
+			echo "</br>";  
+		} 
+		for ($i=4; $i<=$panjang; $i++)  
+		{  
+			echo "* ";
+			for ($j=3; $j<=$panjang; $j++)  
+			{  
+				echo '= ';
+			}  
+			for ($j=5; $j<=$panjang; $j++)  
+			{  
+				echo '* ';
 			}  
 			echo "</br>";  
 		}  
